@@ -1,0 +1,6 @@
+Tier,Duration,Price_USD,Core_Features,AI_Credits,Storage_GB,Support_Level
+Free Trial,1 week,0,"Basic tools, limited access",10,1,Community
+Student,Monthly,15,"Research tools, basic AI",100,5,Email
+Faculty,Monthly,45,"Full AI access, collaboration",500,25,Priority
+Institution,Annual,2500,"Multi-user, admin controls",5000,500,24/7 Dedicated
+Premium,Monthly,85,"All features, priority support",1000,50,VIP

@@ -1,0 +1,6 @@
+Phase,Timeline_Months,Key_Deliverables,Investment_USD,Team_Size,Risk_Level
+Phase 1: Foundation,3,"Platform infrastructure, user auth",150000,8,Low
+Phase 2: Core Services,6,"Plagiarism detection, journal finder",300000,15,Medium
+Phase 3: AI Integration,4,"AI research assistant, translation",400000,20,High
+Phase 4: Advanced Features,8,"Training academy, certification",350000,25,Medium
+Phase 5: Scaling,6,"Mobile apps, API ecosystem",200000,20,Low

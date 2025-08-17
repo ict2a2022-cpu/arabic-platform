@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة البحث العلمي المتقدمة</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>منصة البحث العلمي</span>
+                </div>
+                <nav class="main-nav">
+                    <button class="nav-btn active" data-tab="dashboard">
+                        <i class="fas fa-home"></i>
+                        <span>لوحة التحكم</span>
+                    </button>
+                    <button class="nav-btn" data-tab="ai-assistant">
+                        <i class="fas fa-robot"></i>
+                        <span>المساعد الذكي</span>
+                    </button>
+                    <button class="nav-btn" data-tab="plagiarism">
+                        <i class="fas fa-search"></i>
+                        <span>كشف الاستلال</span>
+                    </button>
+                    <button class="nav-btn" data-tab="journals">
+                        <i class="fas fa-book"></i>
+                        <span>البحث عن المجلات</span>
+                    </button>
+                    <button class="nav-btn" data-tab="translation">
+                        <i class="fas fa-language"></i>
+                        <span>الترجمة</span>
+                    </button>
+                    <button class="nav-btn" data-tab="training">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <span>التدريب</span>
+                    </button>
+                    <button class="nav-btn" data-tab="subscription">
+                        <i class="fas fa-credit-card"></i>
+                        <span>الاشتراك</span>
+                    </button>
+                    <button class="nav-btn" data-tab="profile">
+                        <i class="fas fa-user"></i>
+                        <span>الملف الشخصي</span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            
+            <!-- Dashboard Tab -->
+            <div id="dashboard" class="tab-content active">
+                <div class="dashboard-header">
+                    <h1>مرحباً بك في منصة البحث العلمي المتقدمة</h1>
+                    <p>منصتك الشاملة للبحث والنشر العلمي في العلوم الإنسانية والاجتماعية</p>
+                </div>
+
+                <div class="dashboard-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-file-alt"></i>
+                        <div class="stat-info">
+                            <h3>24</h3>
+                            <p>الأبحاث المنشورة</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="stat-info">
+                            <h3>85%</h3>
+                            <p>معدل القبول</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-award"></i>
+                        <div class="stat-info">
+                            <h3>12</h3>
+                            <p>الشهادات المحققة</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-users"></i>
+                        <div class="stat-info">
+                            <h3>156</h3>
+                            <p>ساعات التدريب</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dashboard-grid">
+                    <div class="dashboard-card">
+                        <h3>التحديات الأكاديمية</h3>
+                        <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/1089f80d6d081da614b4b9efb4be2c64/dd0a6906-413d-4710-b87d-4928a2a04db3/6bdfa126.png" alt="مخطط التحديات الأكاديمية" class="dashboard-chart">
+                    </div>
+                    <div class="dashboard-card">
+                        <h3>خارطة الطريق للمنصة</h3>
+                        <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/1089f80d6d081da614b4b9efb4be2c64/56566182-ddfb-4438-b1e9-8a90c2fba32f/b95e664c.png" alt="خارطة طريق المنصة" class="dashboard-chart">
+                    </div>
+                </div>
+
+                <div class="recent-activities">
+                    <h3>الأنشطة الأخيرة</h3>
+                    <div class="activity-list">
+                        <div class="activity-item">
+                            <i class="fas fa-check-circle activity-icon success"></i>
+                            <div class="activity-content">
+                                <p>تم قبول البحث "تأثير الذكاء الاصطناعي على التعليم" في مجلة دولية</p>
+                                <span class="activity-time">منذ ساعتين</span>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <i class="fas fa-language activity-icon info"></i>
+                            <div class="activity-content">
+                                <p>تم ترجمة ملخص البحث إلى الإنجليزية بنجاح</p>
+                                <span class="activity-time">منذ 4 ساعات</span>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <i class="fas fa-graduation-cap activity-icon warning"></i>
+                            <div class="activity-content">
+                                <p>تم إكمال دورة "منهجية البحث العلمي" بنجاح</p>
+                                <span class="activity-time">أمس</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI Assistant Tab -->
+            <div id="ai-assistant" class="tab-content">
+                <div class="tab-header">
+                    <h2>المساعد الذكي للبحث العلمي</h2>
+                    <p>احصل على مساعدة ذكية في البحث والكتابة الأكاديمية</p>
+                </div>
+
+                <div class="ai-tools-overview">
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1754700152/pplx_project_search_images/3de3fdd5d56e88570313cf952c72fc4448e769d5.png" alt="أدوات الذكاء الاصطناعي للبحث" class="ai-tools-image">
+                </div>
+
+                <div class="ai-chat-container">
+                    <div class="ai-chat-messages" id="ai-chat-messages">
+                        <div class="ai-message">
+                            <i class="fas fa-robot"></i>
+                            <div class="message-content">
+                                <p>مرحباً! أنا مساعدك الذكي للبحث العلمي. كيف يمكنني مساعدتك اليوم؟</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ai-input-container">
+                        <input type="text" id="ai-input" placeholder="اكتب سؤالك أو موضوع البحث هنا..." class="form-control">
+                        <button id="ai-send-btn" class="btn btn--primary">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="ai-quick-actions">
+                    <h3>إجراءات سريعة</h3>
+                    <div class="quick-actions-grid">
+                        <button class="quick-action-btn" data-action="literature-review">
+                            <i class="fas fa-books"></i>
+                            <span>مراجعة الأدبيات</span>
+                        </button>
+                        <button class="quick-action-btn" data-action="methodology">
+                            <i class="fas fa-cogs"></i>
+                            <span>المنهجية</span>
+                        </button>
+                        <button class="quick-action-btn" data-action="citations">
+                            <i class="fas fa-quote-right"></i>
+                            <span>الاستشهادات</span>
+                        </button>
+                        <button class="quick-action-btn" data-action="outline">
+                            <i class="fas fa-list-ol"></i>
+                            <span>مخطط البحث</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Plagiarism Detection Tab -->
+            <div id="plagiarism" class="tab-content">
+                <div class="tab-header">
+                    <h2>كشف الاستلال والتحقق من الأصالة</h2>
+                    <p>تأكد من أصالة بحثك وقلل نسب التشابه</p>
+                </div>
+
+                <div class="plagiarism-container">
+                    <div class="upload-section">
+                        <div class="upload-area" id="upload-area">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                            <h3>ارفع ملف البحث أو الصق النص هنا</h3>
+                            <p>يدعم ملفات PDF، DOC، DOCX حتى 10 ميجابايت</p>
+                            <input type="file" id="file-upload" accept=".pdf,.doc,.docx" hidden>
+                            <button class="btn btn--outline" onclick="document.getElementById('file-upload').click()">اختر ملف</button>
+                        </div>
+                        <div class="text-input-section">
+                            <textarea id="plagiarism-text" class="form-control" rows="8" placeholder="أو الصق النص هنا للفحص المباشر..."></textarea>
+                            <button id="check-plagiarism-btn" class="btn btn--primary">
+                                <i class="fas fa-search"></i>
+                                فحص الاستلال
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="plagiarism-results" id="plagiarism-results" style="display: none;">
+                        <div class="results-header">
+                            <h3>نتائج فحص الاستلال</h3>
+                            <div class="similarity-score">
+                                <div class="score-circle" id="similarity-circle">
+                                    <span id="similarity-percentage">12%</span>
+                                </div>
+                                <p>نسبة التشابه</p>
+                            </div>
+                        </div>
+                        
+                        <div class="results-details">
+                            <div class="result-item">
+                                <i class="fas fa-check-circle text-success"></i>
+                                <span>85% من النص أصلي</span>
+                            </div>
+                            <div class="result-item">
+                                <i class="fas fa-exclamation-triangle text-warning"></i>
+                                <span>12% تشابه مع مصادر أخرى</span>
+                            </div>
+                            <div class="result-item">
+                                <i class="fas fa-quote-right text-info"></i>
+                                <span>3% اقتباسات صحيحة</span>
+                            </div>
+                        </div>
+
+                        <div class="improvement-suggestions">
+                            <h4>اقتراحات التحسين</h4>
+                            <ul>
+                                <li>إعادة صياغة الفقرات المشابهة بأسلوبك الخاص</li>
+                                <li>إضافة المزيد من المراجع والاستشهادات</li>
+                                <li>التأكد من صحة تنسيق الاقتباسات</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Journal Recommendation Tab -->
+            <div id="journals" class="tab-content">
+                <div class="tab-header">
+                    <h2>البحث عن المجلات المناسبة</h2>
+                    <p>اعثر على أفضل المجلات العلمية لنشر بحثك</p>
+                </div>
+
+                <div class="journal-form-container">
+                    <form id="journal-form" class="journal-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="paper-title" class="form-label">عنوان البحث</label>
+                                <input type="text" id="paper-title" class="form-control" placeholder="أدخل عنوان البحث">
+                            </div>
+                            <div class="form-group">
+                                <label for="research-field" class="form-label">المجال البحثي</label>
+                                <select id="research-field" class="form-control">
+                                    <option value="">اختر المجال</option>
+                                    <option value="humanities">العلوم الإنسانية</option>
+                                    <option value="social-sciences">العلوم الاجتماعية</option>
+                                    <option value="literature">الأدب</option>
+                                    <option value="linguistics">اللغويات</option>
+                                    <option value="history">التاريخ</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="paper-abstract" class="form-label">ملخص البحث</label>
+                            <textarea id="paper-abstract" class="form-control" rows="4" placeholder="أدخل ملخص البحث (اختياري)"></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="keywords" class="form-label">الكلمات المفتاحية</label>
+                            <input type="text" id="keywords" class="form-control" placeholder="أدخل الكلمات المفتاحية مفصولة بفواصل">
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary">
+                            <i class="fas fa-search"></i>
+                            البحث عن المجلات
+                        </button>
+                    </form>
+                </div>
+
+                <div class="journal-results" id="journal-results" style="display: none;">
+                    <h3>المجلات المقترحة</h3>
+                    <div class="journal-cards" id="journal-cards">
+                        <!-- Journal cards will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Translation Services Tab -->
+            <div id="translation" class="tab-content">
+                <div class="tab-header">
+                    <h2>خدمات الترجمة الأكاديمية</h2>
+                    <p>ترجمة دقيقة وموثوقة للنصوص الأكاديمية</p>
+                </div>
+
+                <div class="translation-container">
+                    <div class="translation-controls">
+                        <div class="language-selector">
+                            <select id="source-language" class="form-control">
+                                <option value="ar">العربية</option>
+                                <option value="en">الإنجليزية</option>
+                            </select>
+                            <button id="swap-languages" class="swap-btn">
+                                <i class="fas fa-exchange-alt"></i>
+                            </button>
+                            <select id="target-language" class="form-control">
+                                <option value="en">الإنجليزية</option>
+                                <option value="ar">العربية</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="translation-panels">
+                        <div class="translation-panel">
+                            <div class="panel-header">
+                                <h4>النص الأصلي</h4>
+                                <div class="text-stats">
+                                    <span id="source-word-count">0 كلمة</span>
+                                </div>
+                            </div>
+                            <textarea id="source-text" class="form-control translation-textarea" placeholder="اكتب أو الصق النص المراد ترجمته هنا..."></textarea>
+                        </div>
+                        
+                        <div class="translation-panel">
+                            <div class="panel-header">
+                                <h4>الترجمة</h4>
+                                <div class="translation-actions">
+                                    <button id="translate-btn" class="btn btn--primary">
+                                        <i class="fas fa-language"></i>
+                                        ترجم
+                                    </button>
+                                    <button id="copy-translation" class="btn btn--outline">
+                                        <i class="fas fa-copy"></i>
+                                        نسخ
+                                    </button>
+                                </div>
+                            </div>
+                            <textarea id="target-text" class="form-control translation-textarea" readonly placeholder="ستظهر الترجمة هنا..."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="translation-suggestions">
+                        <h4>اقتراحات التحسين</h4>
+                        <div id="suggestions-list" class="suggestions-list">
+                            <div class="suggestion-item">
+                                <i class="fas fa-lightbulb"></i>
+                                <span>استخدم مصطلحات أكاديمية أكثر دقة</span>
+                            </div>
+                            <div class="suggestion-item">
+                                <i class="fas fa-check"></i>
+                                <span>الترجمة متسقة مع المعايير الأكاديمية</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Training Academy Tab -->
+            <div id="training" class="tab-content">
+                <div class="tab-header">
+                    <h2>أكاديمية التدريب</h2>
+                    <p>طور مهاراتك البحثية والأكاديمية مع دوراتنا المتخصصة</p>
+                </div>
+
+                <div class="training-categories">
+                    <div class="category-tabs">
+                        <button class="category-btn active" data-category="all">جميع الدورات</button>
+                        <button class="category-btn" data-category="research">منهجية البحث</button>
+                        <button class="category-btn" data-category="writing">الكتابة الأكاديمية</button>
+                        <button class="category-btn" data-category="ai">الذكاء الاصطناعي</button>
+                        <button class="category-btn" data-category="publishing">النشر العلمي</button>
+                    </div>
+                </div>
+
+                <div class="courses-grid" id="courses-grid">
+                    <!-- Courses will be populated by JavaScript -->
+                </div>
+
+                <div class="progress-section">
+                    <h3>تقدمك في التدريب</h3>
+                    <div class="progress-stats">
+                        <div class="progress-item">
+                            <div class="progress-info">
+                                <span>الدورات المكتملة</span>
+                                <span>8/12</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 67%"></div>
+                            </div>
+                        </div>
+                        <div class="progress-item">
+                            <div class="progress-info">
+                                <span>ساعات التدريب</span>
+                                <span>156/200</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 78%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Subscription Tab -->
+            <div id="subscription" class="tab-content">
+                <div class="tab-header">
+                    <h2>خطط الاشتراك</h2>
+                    <p>اختر الخطة المناسبة لاحتياجاتك البحثية</p>
+                </div>
+
+                <div class="pricing-toggle">
+                    <span>شهري</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="billing-toggle">
+                        <span class="toggle-slider"></span>
+                    </label>
+                    <span>سنوي <span class="discount-badge">وفر 20%</span></span>
+                </div>
+
+                <div class="pricing-cards" id="pricing-cards">
+                    <!-- Pricing cards will be populated by JavaScript -->
+                </div>
+
+                <div class="trial-section">
+                    <div class="trial-card">
+                        <h3>جرب المنصة مجاناً لمدة أسبوع</h3>
+                        <p>اكتشف جميع الميزات واتخذ قرارك</p>
+                        <button class="btn btn--primary btn--lg" id="start-trial-btn">
+                            <i class="fas fa-play"></i>
+                            ابدأ التجربة المجانية
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Profile Tab -->
+            <div id="profile" class="tab-content">
+                <div class="tab-header">
+                    <h2>الملف الشخصي</h2>
+                    <p>إدارة معلوماتك الشخصية وتفضيلاتك</p>
+                </div>
+
+                <div class="profile-container">
+                    <div class="profile-sidebar">
+                        <div class="profile-avatar">
+                            <img src="https://pplx-res.cloudinary.com/image/upload/v1755461725/pplx_project_search_images/e9de16eedaa56ebe1857059201c4e2e6e3b3ad7f.png" alt="صورة المستخدم" id="profile-image">
+                            <button class="change-avatar-btn">
+                                <i class="fas fa-camera"></i>
+                            </button>
+                        </div>
+                        <h3>د. محمد أحمد</h3>
+                        <p>أستاذ مساعد - جامعة القاهرة</p>
+                        <div class="profile-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-file-alt"></i>
+                                <span>24 بحث منشور</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-citation"></i>
+                                <span>342 استشهاد</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-award"></i>
+                                <span>12 شهادة</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profile-content">
+                        <div class="profile-section">
+                            <h4>المعلومات الشخصية</h4>
+                            <form class="profile-form">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label class="form-label">الاسم الكامل</label>
+                                        <input type="text" class="form-control" value="د. محمد أحمد علي">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">البريد الإلكتروني</label>
+                                        <input type="email" class="form-control" value="mohamed.ahmed@university.edu">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label class="form-label">الجامعة</label>
+                                        <input type="text" class="form-control" value="جامعة القاهرة">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">القسم</label>
+                                        <input type="text" class="form-control" value="قسم اللغة العربية">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">التخصص</label>
+                                    <select class="form-control">
+                                        <option>الأدب العربي</option>
+                                        <option>اللغويات</option>
+                                        <option>التاريخ</option>
+                                        <option>الفلسفة</option>
+                                    </select>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="profile-section">
+                            <h4>الإنجازات والشهادات</h4>
+                            <div class="achievements-grid">
+                                <div class="achievement-badge">
+                                    <i class="fas fa-medal"></i>
+                                    <div class="achievement-info">
+                                        <h5>خبير البحث</h5>
+                                        <p>أكمل 10 أبحاث منشورة</p>
+                                    </div>
+                                </div>
+                                <div class="achievement-badge">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <div class="achievement-info">
+                                        <h5>مدرب معتمد</h5>
+                                        <p>أكمل دورة التدريب المتقدمة</p>
+                                    </div>
+                                </div>
+                                <div class="achievement-badge">
+                                    <i class="fas fa-star"></i>
+                                    <div class="achievement-info">
+                                        <h5>باحث متميز</h5>
+                                        <p>حصل على تقييم 5 نجوم</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="profile-actions">
+                            <button class="btn btn--primary">حفظ التغييرات</button>
+                            <button class="btn btn--outline">إلغاء</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>منصة البحث العلمي</h4>
+                    <p>منصتك الشاملة للبحث والنشر العلمي في العلوم الإنسانية والاجتماعية</p>
+                </div>
+                <div class="footer-section">
+                    <h5>الخدمات</h5>
+                    <ul>
+                        <li><a href="#">المساعد الذكي</a></li>
+                        <li><a href="#">كشف الاستلال</a></li>
+                        <li><a href="#">البحث عن المجلات</a></li>
+                        <li><a href="#">الترجمة</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h5>التدريب</h5>
+                    <ul>
+                        <li><a href="#">الدورات التدريبية</a></li>
+                        <li><a href="#">الشهادات</a></li>
+                        <li><a href="#">ورش العمل</a></li>
+                        <li><a href="#">الموارد</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h5>تواصل معنا</h5>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> info@research-platform.com</p>
+                        <p><i class="fas fa-phone"></i> +966 11 234 5678</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 منصة البحث العلمي. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
